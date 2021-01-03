@@ -8,3 +8,16 @@ def square_array(numbers)
   end 
   return new_array
 end
+
+
+
+
+array = [100, 300, 50, 450]
+count = 0
+ 
+while count < array.length do
+  array[count] = array[count] * array[count]
+  count += 1
+end
+ 
+array
